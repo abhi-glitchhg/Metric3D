@@ -5,7 +5,7 @@ from .avg_meter import AverageMeter
 from collections import defaultdict, OrderedDict
 import os
 import socket
-from mmcv.utils import collect_env as collect_base_env
+# from mmcv.utils import collect_env as collect_base_env
 try:
     from mmcv.utils import get_git_hash
 except:
